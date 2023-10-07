@@ -6,7 +6,8 @@ import Details from "../Components/Details/Details";
 import Login from "../Components/Login/Login";
 import Register from "../Register/Register";
 import ProtectRout from "../ProtectRout/ProtectRout";
-import Service from "../OurServices/Servise/Servise";
+// import Service from "../OurServices/Servise/Servise";
+import OurServices from "../OurServices/OurServices";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/services",
-                element: <ProtectRout><Service></Service></ProtectRout>
+                element: <ProtectRout><OurServices></OurServices></ProtectRout>
             },
             {
                 path: "/login",

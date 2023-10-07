@@ -1,11 +1,17 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
+import Swal from 'sweetalert2';
 
 const Navbar = () => {
     const { user, Logout } = useContext(AuthContext);
+
     const handelLogout = () => {
-        Logout();
+        Logout()
+            .then(result => {
+                Swal.fire('Logout Successful')
+            })
+            .catch()
     }
 
     const link = <>
@@ -35,11 +41,15 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                    <div className="hidden md:block ">
+                        {
+                            user && <p>{user?.email}</p>
+                        }
+                    </div>
                     {
-                        user && <p>{user.email}</p>
+                        user && <img className="w-14 h-14 mx-1 rounded-full" src={user?.photoURL} alt="" />
+
                     }
-
-
                     {
                         user ? <Link to="/login">  <button onClick={handelLogout} className="btn bg-orange-500 text-white">LogOut</button></Link>
                             : <Link to="/login">  <button className="btn bg-orange-500 text-white">Login</button></Link>

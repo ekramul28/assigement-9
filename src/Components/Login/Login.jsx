@@ -2,11 +2,12 @@ import { useContext, useState, } from "react";
 import Navbar from "../Header/Navbar";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import Swal from 'sweetalert2';
+import { FcGoogle } from 'react-icons/fc';
 const Login = () => {
     const [success, setSuccess] = useState('');
     const [loginError, setLoginError] = useState('');
 
-    const { LoginUserWithEmail } = useContext(AuthContext);
+    const { LoginUserWithEmail, logInWithGoogle } = useContext(AuthContext);
 
     const handelForm = e => {
         e.preventDefault()
@@ -23,10 +24,16 @@ const Login = () => {
             .catch(error => {
                 setLoginError(error.message)
             });
+    }
 
-
-
-
+    const googleClick = () => {
+        logInWithGoogle()
+            .then(result => {
+                setSuccess(result.user);
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }
     return (
         <div>
@@ -58,12 +65,17 @@ const Login = () => {
                             </div>
                         </form>
                         {
-                            loginError && <p>{loginError}</p>
+                            loginError && <p className="text-red-500 text-center p-4">{loginError}</p>
                         }
+                    </div>
+                    <div onClick={googleClick} className=" border-2 border-black p-4 rounded-xl mt-5">
+                        <p className="flex justify-center items-center gap-3 text-xl font-semibold"><FcGoogle /> Continue With Google</p>
                     </div>
                 </div>
 
+
             </div>
+
         </div>
     );
 };

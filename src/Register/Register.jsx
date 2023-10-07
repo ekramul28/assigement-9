@@ -13,7 +13,7 @@ const Register = () => {
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        if (password.length <= 6) {
+        if (password.length < 6) {
             return Swal.fire('Password must be at least 6 characters')
         }
         createUserWithEmail(email, password)
@@ -63,7 +63,7 @@ const Register = () => {
 
                         </form>
                         {
-                            registerError && <p>{registerError}</p>
+                            registerError && <p className="text-red-500 text-center p-4">{registerError}</p>
                         }
 
                     </div>
