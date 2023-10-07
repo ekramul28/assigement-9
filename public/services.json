@@ -3,30 +3,72 @@
         "id": 1,
         "name": "Yoga Classes",
         "description": "Structured yoga sessions led by experienced instructors, teaching various yoga styles, poses, breathing techniques, and meditation practices.",
-        "img_": "https://i.ibb.co/MyTY4dZ/pexels-elina-fairytale-3822672.jpg"
+        "img_": "https://i.ibb.co/MyTY4dZ/pexels-elina-fairytale-3822672.jpg",
+        "price": 49.99,
+        "rating": 4.5,
+        "text_color": "#333333",
+        "bg_color": "#FFFFFF",
+        "teacher_name": "Samantha Johnson",
+        "description2": "Yoga classes offer a transformative journey towards physical, mental, and spiritual well-being. These classes provide a sanctuary where individuals of all ages and fitness levels can come together to explore the ancient art of yoga. Yoga is not just a physical practice but a holistic discipline that fosters balance and harmony within the body and mind.In yoga classes, experienced instructors guide participants through a diverse range of postures, breathing exercises, and meditation techniques. These practices enhance flexibility, strength, and balance, while simultaneously reducing stress and promoting relaxation. Participants learn to synchronize their breath with movement, cultivating mindfulness and self-awareness. Yoga classes are an inclusive space where individuals can disconnect from the demands of daily life and reconnect with themselves. Whether you are a beginner or an advanced practitioner, each class offers an opportunity for self-discovery and growth. The benefits of regular yoga practice extend beyond the mat, influencing how we navigate challenges and find serenity in the chaos of modern life.Joining a yoga class means embarking on a profound journey of self-improvement, fostering physical health, mental clarity, and spiritual connection. It is an invitation to embrace a lifestyle of wellness, balance, and inner peace."
     },
     {
         "id": 2,
         "name": "Yoga Therapy",
         "description": "Personalized sessions with trained therapists using yoga practices to address specific health concerns and improve physical and mental well-being.",
-        "img_": "https://i.ibb.co/KGKKSdT/annie-spratt-l-eem-JU0v-E-unsplash.jpg"
+        "img_": "https://i.ibb.co/KGKKSdT/annie-spratt-l-eem-JU0v-E-unsplash.jpg",
+        "price": 59.99,
+        "rating": 4.7,
+        "text_color": "#FFFFFF",
+        "bg_color": "#009688",
+        "teacher_name": "Michael Smith",
+        "description2": "Yoga therapy is a holistic approach to improving overall health and well-being through the integration of yoga practices. Unlike regular yoga classes, yoga therapy focuses on personalized sessions tailored to individual needs and health concerns. Trained yoga therapists work closely with clients to assess physical, mental, and emotional conditions, addressing issues such as chronic pain, stress, anxiety, depression, and even specific medical conditions. In yoga therapy, practitioners utilize a combination of yoga postures (asanas), breathing exercises (pranayama), meditation, and mindfulness techniques to create a customized therapeutic plan. These practices are designed to alleviate symptoms, improve flexibility, strength, and balance, and enhance mental clarity and emotional resilience. The therapeutic process involves ongoing assessment and adjustments to the practice to ensure progress and comfort. Yoga therapy empowers individuals to take an active role in their health, promoting self-awareness and self-care. It is a complementary approach often used alongside"
     },
     {
         "id": 3,
         "name": "Holistic Nutrition Counseling",
         "description": "Dietary guidance and nutrition planning incorporating yoga principles, tailored to an individual's health goals and lifestyle.",
-        "img_": "https://i.ibb.co/Kx2QpZn/medium-shot-doctor-showing-results-patient.jpg"
+        "img_": "https://i.ibb.co/Kx2QpZn/medium-shot-doctor-showing-results-patient.jpg",
+        "price": 39.99,
+        "rating": 4.2,
+        "text_color": "#FFFFFF",
+        "bg_color": "#673AB7",
+        "teacher_name": "Emily Davis",
+        "description2": "Holistic nutrition counseling is a personalized approach to health and wellness that considers the interconnectedness of diet, lifestyle, and overall well-being. Certified holistic nutritionists work with individuals to create customized nutrition plans, taking into account their unique needs and goals. This approach promotes optimal health by emphasizing whole, unprocessed foods, mindful eating, and the cultivation of a balanced and nourishing diet that supports physical and emotional vitality."
     },
     {
         "id": 4,
         "name": "Mindfulness Meditation",
         "description": "Guided meditation sessions focused on cultivating mindfulness, reducing stress, and enhancing mental clarity and presence.",
-        "img_": "https://i.ibb.co/wSr7Z5K/bohemian-personalities-going-adventure-together.jpg"
+        "img_": "https://i.ibb.co/wSr7Z5K/bohemian-personalities-going-adventure-together.jpg",
+        "price": 69.99,
+        "rating": 4.8,
+        "text_color": "#FFFFFF",
+        "bg_color": "#FF5722",
+        "teacher_name": "David Wilson",
+        "description2": "Mindfulness meditation is a practice that cultivates present-moment awareness and mental clarity. It involves focusing your attention on the sensations of your breath, bodily sensations, or a specific object, while acknowledging and accepting any passing thoughts or emotions without judgment. This practice reduces stress, enhances emotional regulation, and fosters a sense of calm and inner peace. Regular mindfulness meditation can improve concentration, promote self-awareness, and empower individuals to navigate life's challenges with greater resilience and a tranquil mind."
     },
     {
         "id": 5,
         "name": "Ayurveda Consultation",
         "description": "Assessment of an individual's constitution (dosha) and personalized recommendations for diet, lifestyle, and herbal remedies based on Ayurvedic principles.",
-        "img_": "https://i.ibb.co/5LCxk0f/pexels-kampus-production-6698513.jpg"
+        "img_": "https://i.ibb.co/5LCxk0f/pexels-kampus-production-6698513.jpg",
+        "price": 29.99,
+        "rating": 4.6,
+        "text_color": "#333333",
+        "bg_color": "#E0E0E0",
+        "teacher_name": "Sarah Adams",
+        "description2": "Ayurveda consultation is a holistic approach to health rooted in ancient Indian wisdom. It begins with a comprehensive assessment of an individual's unique constitution, known as dosha, which includes Vata, Pitta, and Kapha. Ayurvedic practitioners use this assessment to tailor personalized recommendations for diet, lifestyle, and herbal remedies. These recommendations are designed to restore balance and harmony within the body and mind. Ayurveda places a strong emphasis on prevention and natural healing, making it a valuable complement to modern medicine. Ayurveda consultation empowers individuals to align with their inherent nature, fostering optimal health, vitality, and a deeper connection to the self."
+    },
+    {
+        "id": 6,
+        "name": "Prenatal Yoga Classes",
+        "description": "Yoga classes specifically designed for expectant mothers to promote physical fitness, relaxation, and well-being during pregnancy.",
+        "img": "https://i.ibb.co/k9q1ndF/hansam.jpg",
+        "price": 54.99,
+        "rating": 4.4,
+        "text_color": "#FFFFFF",
+        "bg_color": "#009688",
+        "teacher_name": "Lisa Roberts",
+        "description2": "Prenatal yoga classes offer a nurturing and supportive environment for expectant mothers to embark on a journey of physical and emotional well-being during pregnancy. These specialized classes are designed to address the unique needs of pregnant women, focusing on gentle yoga postures, breathing techniques, and relaxation practices. Prenatal yoga helps alleviate common pregnancy discomforts such as back pain, stress, and fatigue. It also enhances flexibility, strength, and balance, preparing the body for childbirth. Beyond the physical benefits, these classes foster a sense of community, empowering mothers to connect with their bodies, their babies, and other expectant moms. Prenatal yoga is a holistic practice that promotes a healthier pregnancy and a smoother transition into motherhood."
     }
 ]

@@ -10,8 +10,8 @@ const Home = () => {
         <div className="container mx-auto">
             <Navbar></Navbar>
             <Banner></Banner>
-            <OurServices></OurServices>
             <Welcome></Welcome>
+            <OurServices></OurServices>
             <StartJourney></StartJourney>
             <Footer></Footer>
         </div>
