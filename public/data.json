@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Hatha Yoga Basics",
+        "description": "Discover the profound world of Hatha Yoga with our immersive 'Hatha Yoga Basics' course. This comprehensive program is carefully crafted to introduce beginners to the timeless art of Hatha Yoga while providing valuable insights for experienced practitioners seeking to refine their practice. Join us to explore the mind-body connection and embark on a journey of self-discovery.",
+        "img": "https://example.com/hatha-yoga.jpg",
+        "price": 49.99,
+        "rating": 4.5,
+        "text_color": "#333333",
+        "bg_color": "#FFFFFF",
+        "teacher_name": "Samantha Johnson",
+        "teacher_img": "https://example.com/samantha-johnson.jpg"
+    },
+    {
+        "name": "Vinyasa Flow Mastery",
+        "description": "Experience the art of flowing yoga sequences with our 'Vinyasa Flow Mastery' course. Suitable for both intermediate and advanced practitioners, this program is led by our experienced instructor, Michael Smith. Dive into dynamic movements, synchronization of breath, and elevate your yoga practice to new heights.",
+        "img": "https://example.com/vinyasa-flow.jpg",
+        "price": 59.99,
+        "rating": 4.7,
+        "text_color": "#FFFFFF",
+        "bg_color": "#009688",
+        "teacher_name": "Michael Smith",
+        "teacher_img": "https://example.com/michael-smith.jpg"
+    },
+    {
+        "name": "Yin Yoga for Relaxation",
+        "description": "Indulge in deep relaxation with our 'Yin Yoga for Relaxation' course. Led by our instructor, Emily Davis, this program incorporates gentle poses that promote relaxation and stress relief. Join us to discover the serenity within as you explore the world of Yin Yoga.",
+        "img": "https://example.com/yin-yoga.jpg",
+        "price": 39.99,
+        "rating": 4.2,
+        "text_color": "#FFFFFF",
+        "bg_color": "#673AB7",
+        "teacher_name": "Emily Davis",
+        "teacher_img": "https://example.com/emily-davis.jpg"
+    },
+    {
+        "name": "Power Yoga Intensive",
+        "description": "Challenge yourself with our 'Power Yoga Intensive' course designed to enhance strength and flexibility. Led by our experienced instructor, David Wilson, this program offers an invigorating practice that pushes your limits and revitalizes your body and mind.",
+        "img": "https://example.com/power-yoga.jpg",
+        "price": 69.99,
+        "rating": 4.8,
+        "text_color": "#FFFFFF",
+        "bg_color": "#FF5722",
+        "teacher_name": "David Wilson",
+        "teacher_img": "https://example.com/david-wilson.jpg"
+    },
+    {
+        "name": "Meditation and Mindfulness",
+        "description": "Explore the profound benefits of meditation and mindfulness in our 'Meditation and Mindfulness' course. Led by mindfulness expert Sarah Adams, this program enhances mental clarity and inner peace. Begin your journey towards a more mindful and balanced life with us.",
+        "img": "https://example.com/meditation.jpg",
+        "price": 29.99,
+        "rating": 4.6,
+        "text_color": "#333333",
+        "bg_color": "#E0E0E0",
+        "teacher_name": "Sarah Adams",
+        "teacher_img": "https://example.com/sarah-adams.jpg"
+    },
+    {
+        "name": "Prenatal Yoga for Moms-to-Be",
+        "description": "Prepare your body for childbirth and a healthy pregnancy with our 'Prenatal Yoga for Moms-to-Be' course. Led by certified prenatal yoga instructor Lisa Roberts, this program offers gentle and safe practices for expectant mothers. Join us on this journey towards a healthy pregnancy.",
+        "img": "https://example.com/prenatal-yoga.jpg",
+        "price": 54.99,
+        "rating": 4.4,
+        "text_color": "#FFFFFF",
+        "bg_color": "#009688",
+        "teacher_name": "Lisa Roberts",
+        "teacher_img": "https://example.com/lisa-roberts.jpg"
+    },
+    {
+        "name": "Yoga for Stress Relief",
+        "description": "Experience 'Yoga for Stress Relief,' where we use gentle yoga poses and relaxation techniques to reduce stress and anxiety. Instructor James Miller will guide you in finding calmness and balance amidst life's challenges. Discover the power of yoga for stress management.",
+        "img": "https://example.com/stress-relief-yoga.jpg",
+        "price": 44.99,
+        "rating": 4.3,
+        "text_color": "#333333",
+        "bg_color": "#E0E0E0",
+        "teacher_name": "James Miller",
+        "teacher_img": "https://example.com/james-miller.jpg"
+    },
+    {
+        "name": "Advanced Ashtanga Yoga",
+        "description": "Take your practice to new heights with our 'Advanced Ashtanga Yoga' course. Led by renowned Ashtanga expert Maria Sanchez, this program challenges experienced practitioners with demanding asanas and breath control techniques. Dive into the advanced world of Ashtanga Yoga.",
+        "img": "https://example.com/ashtanga-yoga.jpg",
+        "price": 79.99,
+        "rating": 4.9,
+        "text_color": "#FFFFFF",
+        "bg_color": "#FF5722",
+        "teacher_name": "Maria Sanchez",
+        "teacher_img": "https://example.com/maria-sanchez.jpg"
+    },
+    {
+        "name": "Yoga Nidra for Deep Sleep",
+        "description": "Experience deep relaxation and improved sleep with our 'Yoga Nidra for Deep Sleep' course. Expert guide John Anderson will lead you through meditation and body scanning techniques to achieve restorative sleep. Discover the power of Yoga Nidra for a well-rested life.",
+        "img": "https://example.com/yoga-nidra.jpg",
+        "price": 34.99,
+        "rating": 4.1,
+        "text_color": "#333333",
+        "bg_color": "#FFFFFF",
+        "teacher_name": "John Anderson",
+        "teacher_img": "https://example.com/john-anderson.jpg"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Yoga Classes",
+        "description": "Structured yoga sessions led by experienced instructors, teaching various yoga styles, poses, breathing techniques, and meditation practices.",
+        "img_": "https://i.ibb.co/MyTY4dZ/pexels-elina-fairytale-3822672.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Yoga Therapy",
+        "description": "Personalized sessions with trained therapists using yoga practices to address specific health concerns and improve physical and mental well-being.",
+        "img_": "https://i.ibb.co/KGKKSdT/annie-spratt-l-eem-JU0v-E-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Holistic Nutrition Counseling",
+        "description": "Dietary guidance and nutrition planning incorporating yoga principles, tailored to an individual's health goals and lifestyle.",
+        "img_": "https://i.ibb.co/Kx2QpZn/medium-shot-doctor-showing-results-patient.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mindfulness Meditation",
+        "description": "Guided meditation sessions focused on cultivating mindfulness, reducing stress, and enhancing mental clarity and presence.",
+        "img_": "https://i.ibb.co/wSr7Z5K/bohemian-personalities-going-adventure-together.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Ayurveda Consultation",
+        "description": "Assessment of an individual's constitution (dosha) and personalized recommendations for diet, lifestyle, and herbal remedies based on Ayurvedic principles.",
+        "img_": "https://i.ibb.co/5LCxk0f/pexels-kampus-production-6698513.jpg"
+    }
+]
