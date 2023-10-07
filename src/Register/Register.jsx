@@ -1,12 +1,30 @@
+import { useContext, useState } from "react";
 import Navbar from "../Components/Header/Navbar";
+import { AuthContext } from "../AuthProvider/AuthProvider";
+import Swal from 'sweetalert2';
 
 const Register = () => {
+    const [registerError, setRegisterError] = useState('');
+    const [registerSuccess, setRegisterSuccess] = useState('')
+    const { createUserWithEmail, } = useContext(AuthContext);
+
     const handelForm = e => {
         e.preventDefault()
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(name, email, password);
+        if (password.length <= 6) {
+            return Swal.fire('Password must be at least 6 characters')
+        }
+        createUserWithEmail(email, password)
+            .then(result => {
+                setRegisterSuccess(result.user);
+                Swal.fire('Register Successful')
+            })
+            .catch(error => {
+                setRegisterError(error.message);
+            });
+
     }
     return (
         <div>
@@ -22,7 +40,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
-                                <input type="name" name="name" placeholder="name" className="input input-bordered" required />
+                                <input type="name" name="name" placeholder="name" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
@@ -42,8 +60,14 @@ const Register = () => {
                             <div className="form-control mt-6">
                                 <button className="btn bg-orange-500 text-white">Register</button>
                             </div>
+
                         </form>
+                        {
+                            registerError && <p>{registerError}</p>
+                        }
+
                     </div>
+
                 </div>
             </div>
         </div>

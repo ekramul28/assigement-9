@@ -1,11 +1,32 @@
+import { useContext, useState, } from "react";
 import Navbar from "../Header/Navbar";
-
+import { AuthContext } from "../../AuthProvider/AuthProvider";
+import Swal from 'sweetalert2';
 const Login = () => {
+    const [success, setSuccess] = useState('');
+    const [loginError, setLoginError] = useState('');
+
+    const { LoginUserWithEmail } = useContext(AuthContext);
+
     const handelForm = e => {
         e.preventDefault()
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(email, password);
+
+        setLoginError('');
+        setSuccess('');
+        LoginUserWithEmail(email, password)
+            .then(result => {
+                setSuccess(result.user);
+                Swal.fire('Login Successful')
+            })
+            .catch(error => {
+                setLoginError(error.message)
+            });
+
+
+
+
     }
     return (
         <div>
@@ -36,8 +57,12 @@ const Login = () => {
                                 <button className="btn bg-orange-500 text-white">Login</button>
                             </div>
                         </form>
+                        {
+                            loginError && <p>{loginError}</p>
+                        }
                     </div>
                 </div>
+
             </div>
         </div>
     );

@@ -5,6 +5,8 @@ import NoPage from "../pages/Nopage/NoPage";
 import Details from "../Components/Details/Details";
 import Login from "../Components/Login/Login";
 import Register from "../Register/Register";
+import ProtectRout from "../ProtectRout/ProtectRout";
+import Service from "../OurServices/Servise/Servise";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -16,6 +18,10 @@ const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
+                path: "/services",
+                element: <ProtectRout><Service></Service></ProtectRout>
+            },
+            {
                 path: "/login",
                 element: <Login></Login>
             },
@@ -25,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/details/:id",
-                element: <Details></Details>,
+                element: <ProtectRout><Details></Details></ProtectRout>,
                 loader: () => fetch('/public/services.json')
             },
         ]
