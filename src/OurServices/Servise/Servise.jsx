@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import { Link } from 'react-router-dom';
 const Service = ({ service }) => {
     console.log(service)
@@ -6,7 +7,7 @@ const Service = ({ service }) => {
     return (
         <div >
             <div className="card  bg-base-100 border-2 h-[550px]">
-                <div>
+                <div >
                     <img className='w-full h-64' src={img_} alt="" />
                 </div>
                 <div className="card-body  ">

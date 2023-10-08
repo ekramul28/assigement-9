@@ -1,8 +1,8 @@
 import { useContext, useState, } from "react";
-import Navbar from "../Header/Navbar";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import Swal from 'sweetalert2';
 import { FcGoogle } from 'react-icons/fc';
+import { Link } from "react-router-dom";
 const Login = () => {
     const [success, setSuccess] = useState('');
     const [loginError, setLoginError] = useState('');
@@ -37,8 +37,8 @@ const Login = () => {
     }
     return (
         <div>
-            <Navbar></Navbar>
-            <div className="hero min-h-screen bg-base-200 ">
+
+            <div className="hero min-h-screen ">
                 <div className="hero-content flex-col">
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl font-bold"><span className="text-orange-500">Login</span> now!</h1>
@@ -62,6 +62,9 @@ const Login = () => {
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn bg-orange-500 text-white">Login</button>
+                            </div>
+                            <div>
+                                <h1>Don't have Account <Link className="text-xl text-orange-500 font-bold" to="/register"> Register</Link></h1>
                             </div>
                         </form>
                         {

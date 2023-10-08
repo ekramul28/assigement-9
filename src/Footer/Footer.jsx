@@ -1,13 +1,18 @@
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
         <div>
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
-                <nav className="grid grid-flow-col gap-4">
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                <a className="btn btn-ghost normal-case text-4xl text-orange-500">Yoga Master</a>
+
+                <nav className="grid grid-flow-col gap-4 font-medium text-lg">
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to='/services'>Services</NavLink>
+                    <NavLink to='/login'>Login</NavLink>
+                    <NavLink to='/register'>Register</NavLink>
+                    <NavLink to='/about'>About Us</NavLink>
+
                 </nav>
                 <nav>
                     <div className="grid grid-flow-col gap-4">
@@ -17,7 +22,7 @@ const Footer = () => {
                     </div>
                 </nav>
                 <aside>
-                    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2023 - All right reserved by Md Ekramul Hassan</p>
                 </aside>
             </footer>
         </div>

@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
-import Navbar from "../Components/Header/Navbar";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import Swal from 'sweetalert2';
+import { Link } from "react-router-dom";
 
 const Register = () => {
     const [registerError, setRegisterError] = useState('');
@@ -28,8 +28,8 @@ const Register = () => {
     }
     return (
         <div>
-            <Navbar></Navbar>
-            <div className="hero min-h-screen bg-base-200 ">
+
+            <div className="hero min-h-screen  ">
                 <div className="hero-content flex-col">
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl font-bold"> <span className="text-orange-500">Register</span> now!</h1>
@@ -60,7 +60,9 @@ const Register = () => {
                             <div className="form-control mt-6">
                                 <button className="btn bg-orange-500 text-white">Register</button>
                             </div>
-
+                            <div>
+                                <h1> have Account <Link className="text-xl text-orange-500 font-bold" to="/login"> Login</Link></h1>
+                            </div>
                         </form>
                         {
                             registerError && <p className="text-red-500 text-center p-4">{registerError}</p>

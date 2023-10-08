@@ -8,19 +8,21 @@ import Register from "../Register/Register";
 import ProtectRout from "../ProtectRout/ProtectRout";
 // import Service from "../OurServices/Servise/Servise";
 import OurServices from "../OurServices/OurServices";
+import Yoga from "../OurServices/Servise/YogaClass/YogaClass";
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
-        // errorElement: <NoPage></NoPage>,
+        errorElement: <NoPage></NoPage>,
         children: [
             {
                 path: "/",
                 element: <Home></Home>
             },
             {
-                path: "/services",
-                element: <ProtectRout><OurServices></OurServices></ProtectRout>
+                path: "/yoga",
+                element: <ProtectRout><Yoga></Yoga></ProtectRout>,
+                loader: () => fetch('/public/data.json')
             },
             {
                 path: "/login",
