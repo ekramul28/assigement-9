@@ -23,7 +23,7 @@ const router = createBrowserRouter([
             {
                 path: "/yoga",
                 element: <ProtectRout><Yoga></Yoga></ProtectRout>,
-                loader: () => fetch('/public/data.json')
+                loader: () => fetch('data.json')
             },
             {
                 path: "/login",
