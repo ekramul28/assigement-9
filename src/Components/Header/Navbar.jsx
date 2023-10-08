@@ -48,6 +48,7 @@ const Navbar = () => {
                             user && <p>{user?.email.slice(0, 10)}</p>
                         }
                     </div>
+
                     {
                         user && <img className="w-14 h-14 mx-1 rounded-full" src={user?.photoURL} alt="" />
 
