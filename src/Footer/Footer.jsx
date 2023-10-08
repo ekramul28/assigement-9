@@ -6,9 +6,9 @@ const Footer = () => {
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <a className="btn btn-ghost normal-case text-4xl text-orange-500">Yoga Master</a>
 
-                <nav className="grid grid-flow-col gap-4 font-medium text-lg">
+                <nav className="grid grid-flow-col gap-4 font-medium md:text-lg">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to='/services'>Services</NavLink>
+                    <NavLink to='/yoga'>YogaClass</NavLink>
                     <NavLink to='/login'>Login</NavLink>
                     <NavLink to='/register'>Register</NavLink>
                     <NavLink to='/about'>About Us</NavLink>

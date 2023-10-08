@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const StartJourney = () => {
     return (
@@ -11,7 +12,7 @@ const StartJourney = () => {
                                 PLACE & PEOPLE</h2>
                             <p>There anyone who loves or pursues desires to obtain pain of itself, because it some great pleasure </p>
                             <div className="card-actions justify-center">
-                                <button className="btn hover:bg-orange-500 hover:text-white ">More Details</button>
+                                <Link to='/no'><button className="btn hover:bg-orange-500 hover:text-white ">More Details</button></Link>
                             </div>
                         </div>
                     </div>
@@ -21,7 +22,7 @@ const StartJourney = () => {
                                 INSTRUCTOR</h2>
                             <p>There anyone who loves or pursues desires to obtain pain of itself, because it some great pleasure.</p>
                             <div className="card-actions  justify-center ">
-                                <button className="btn hover:bg-orange-500 hover:text-white ">More Details</button>
+                                <Link to="/no"><button className="btn hover:bg-orange-500 hover:text-white ">More Details</button></Link>
                             </div>
                         </div>
                     </div>
@@ -31,7 +32,7 @@ const StartJourney = () => {
                                 STYLE & PACE</h2>
                             <p>There anyone who loves or pursues desires to obtain pain of itself, because it some great pleasure.</p>
                             <div className="card-actions justify-center">
-                                <button className="btn  hover:bg-orange-500 hover:text-white">More Details</button>
+                                <Link to="/no"><button className="btn  hover:bg-orange-500 hover:text-white">More Details</button></Link>
                             </div>
                         </div>
                     </div>

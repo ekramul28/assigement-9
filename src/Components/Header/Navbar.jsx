@@ -15,7 +15,7 @@ const Navbar = () => {
     }
 
     const link = <>
-        <li> <NavLink to="/">Home</NavLink></li>
+        <li> <NavLink to="/" >Home</NavLink></li>
         <li><NavLink to='/yoga'>YogaClass</NavLink></li>
         <li><NavLink to='/login'>Login</NavLink></li>
         <li><NavLink to='/register'>Register</NavLink></li>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-4xl text-orange-500">Yoga Master</a>
+                    <a className="btn btn-ghost normal-case text-2xl md:text-3xl text-orange-500">Yoga Master</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <div className="hidden md:block ">
                         {
-                            user && <p>{user?.email}</p>
+                            user && <p>{user?.email.slice(0, 10)}</p>
                         }
                     </div>
                     {

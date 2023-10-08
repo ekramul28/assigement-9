@@ -13,7 +13,9 @@ const YogaClass = () => {
         }
 
       </div>
-      <OurServices></OurServices>
+      <div className="mb-6">
+        <OurServices></OurServices>
+      </div>
     </div>
   );
 };

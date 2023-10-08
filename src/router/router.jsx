@@ -9,6 +9,7 @@ import ProtectRout from "../ProtectRout/ProtectRout";
 // import Service from "../OurServices/Servise/Servise";
 import OurServices from "../OurServices/OurServices";
 import Yoga from "../OurServices/Servise/YogaClass/YogaClass";
+import AboutUs from "../Components/AboutUs/AboutUs";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
                 element: <ProtectRout><Details></Details></ProtectRout>,
                 loader: () => fetch('/public/services.json')
             },
+            {
+                path: "/about",
+                element: <ProtectRout><AboutUs></AboutUs></ProtectRout>
+            }
         ]
     },
 ]);
