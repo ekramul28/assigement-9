@@ -30,6 +30,7 @@ const Login = () => {
         logInWithGoogle()
             .then(result => {
                 setSuccess(result.user);
+                Swal.fire('Login Successful')
             })
             .catch(error => {
                 console.error(error)
