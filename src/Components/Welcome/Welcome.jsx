@@ -9,7 +9,7 @@ const Welcome = () => {
                     At Yogi, we do not only teach yoga, we seek to create a yoga  community where we can share daily matters, stress at work or problems in life .<br /> Yoga is the great recipe to communicate and balance your mind and body.</p>
             </div>
             <div className="md:w-1/2">
-                <img src="/public/images/image.png" alt="" />
+                <img src="images/image.png" alt="" />
             </div>
         </div>
     );

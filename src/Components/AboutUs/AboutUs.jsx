@@ -54,17 +54,17 @@ const AboutUs = () => {
             </div>
             <div className='grid lg:grid-cols-3 gap-3 my-4'>
                 <div>
-                    <img src="/public/images/pexels-alexy-almond-3758056e.jpg" alt="" />
+                    <img src="images/pexels-alexy-almond-3758056e.jpg" alt="" />
                     <h1 className="text-2xl font-bold">Our Mission</h1>
                     <p className="font-normal text-gray-400">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
                 <div>
-                    <img src="/public/images/pexels-elina-fairytale-3822906.jpg" alt="" />
+                    <img src="images/pexels-elina-fairytale-3822906.jpg" alt="" />
                     <h1 className="text-2xl font-bold">Our Values</h1>
                     <p className="font-normal text-gray-400">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
                 <div>
-                    <img src="/public/images/pexels-valeria-ushakova-3094230.jpg" alt="" />
+                    <img src="images/pexels-valeria-ushakova-3094230.jpg" alt="" />
                     <h1 className="text-2xl font-bold">Our Vision</h1>
                     <p className="font-normal text-gray-400">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </div>
