@@ -1,7 +1,8 @@
 
 const Welcome = () => {
+
     return (
-        <div className="md:flex items-center justify-center">
+        <div data-aos="fade-down" className="md:flex items-center justify-center">
             <div className="md:w-1/2">
                 <h1 className="font-bold text-center p-3 md:text-left text-2xl lg:text-4xl my-8">WELCOME TO <span className="text-orange-500">YOGA MASTER</span></h1>
                 <p className="font-normal lg:text-lg p-3">Yogi is founded with our passion for yoga and we would  love to spread that love to and more people.

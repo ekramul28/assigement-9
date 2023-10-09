@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div>
+        <div data-aos="fade-right">
             <div className="carousel w-full max-h-none">
                 <div id="slide1" className="carousel-item relative w-full">
 

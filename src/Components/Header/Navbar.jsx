@@ -22,7 +22,7 @@ const Navbar = () => {
         <li><NavLink to='/about'>About Us</NavLink>
         </li>  </>
     return (
-        <div>
+        <div data-aos="fade-down-right">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
