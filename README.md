@@ -1,3 +1,22 @@
+live link :
+
+
+  <h1>Qus 1</h1>
+  <h1>Ans:</h1>
+  <h1>Qus 2</h1>
+  <h1>Ans:</h1>
+  <h1>Qus 3</h1>
+  <h1>Ans:</h1>
+  <h1>Qus 4</h1>
+  <h1>Ans:</h1>
+  <h1>Qus 5</h1>
+  <h1>Ans:</h1>
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
