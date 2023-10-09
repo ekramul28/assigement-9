@@ -1,6 +1,6 @@
 live link :
 
-                                    <h2>Qus Ans section</h2>
+                                    Qus Ans section
                                     
   <h1>Qus 1</h1>
   <h1>Ans:A</h1>
@@ -18,7 +18,7 @@ live link :
   <h1>Ans:D</h1>
   <p>Array length is 4</p>
 
-
+                                         fetcher
 
 
 
