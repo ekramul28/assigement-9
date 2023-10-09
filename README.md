@@ -1,6 +1,7 @@
 live link :
 
-                                    <h1>Qus Ans section</h1>
+                                    <h2>Qus Ans section</h2>
+                                    
   <h1>Qus 1</h1>
   <h1>Ans:A</h1>
   <p>let can  Reassign</p>
