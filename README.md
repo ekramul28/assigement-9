@@ -1,4 +1,4 @@
-live link :
+live link :https://assignment9-ed659.web.app/
 
                                     Qus Ans section
                                     
@@ -18,10 +18,16 @@ live link :
   <h1>Ans:D</h1>
   <p>Array length is 4</p>
 
-                                         fetcher
+                                         fetcher section
 
 
-
+<ul>
+  <li>you can register this website</li>
+  <li>google login</li>
+  <li>if you login then you can see about us section</li>
+  <li>you can see yoga name and class time</li>
+  <li> if you click the details button then you can see details of this card</li>
+</ul>
 
 # React + Vite
 
